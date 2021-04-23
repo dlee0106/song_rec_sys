@@ -31,10 +31,10 @@ Taking a look at the feature means over time, we see that there is a trend towar
 
 Most of the features in the dataset were already scaled so we just had to create dummy variables of the following categorical features: 
 
-Explicit
-Mode
-Key
-Time Signature
+* Explicit 
+* Mode
+* Key
+* Time Signature
 
 ## Final Model
 The final model calculated the Eculidean distance between the given song (user input) and the songs in the rest of the dataset. After getting all the distances, we returned the top ten for our recommendation system. 
