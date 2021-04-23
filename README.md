@@ -23,6 +23,7 @@ Attributes:
 ## EDA
 
 ![pasted image 0](https://user-images.githubusercontent.com/76017120/115812570-95aa9e80-a3bf-11eb-8fbe-1fdab1430775.png)
+
 I took a look at the correlation between our features to find if there was a problem of multicollinearity. There didn't seem to be one so I used all the features. The model ran relatively quickly with them so I didn't reduce the number of features - just subset the data by year. 
 
 ![image](https://user-images.githubusercontent.com/76017120/115812859-1f5a6c00-a3c0-11eb-818c-a83cf03fe086.png)
